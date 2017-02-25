@@ -1,0 +1,19 @@
+	/*	discard-server	*/
+
+Author: Tr.Vlad
+Date: 25.02.2017
+Description:
+	Simple discard server (ignore receive date)
+
+Note:
+	Server is work on 9 port, therefore need root privileges
+
+Install
+
+Makefile:
+$ make
+
+Manual:
+$ gcc discard-server.c -o discard-server
+
+
